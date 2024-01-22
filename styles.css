@@ -224,7 +224,7 @@
   flex-direction: column;
 }
 
-.tekst_naart_foto{
+.box2{
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
@@ -232,6 +232,7 @@
 
 article{
   padding: 20px;
+
 }
 
 .box3 {
@@ -245,6 +246,14 @@ article{
 }
 
 
+.tekst_omheen{
+  float: right;
+  shape-outside: url(images/illustratie_duurzaam.png);
+}
+
+.onderste_tekst{
+  padding-top: 30px;
+}
 
 
 footer{
