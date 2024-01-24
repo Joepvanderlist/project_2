@@ -15,9 +15,7 @@
    padding: 0;
    min-height: 100vh; 
    /* make it look decent enough */
-   /*background: #232323;*/
    background: #ededed;
-   /*color: #cdcdcd;*/
    color: #232323;
    font-family: "Avenir Next", "Avenir", sans-serif;
  }
@@ -46,7 +44,6 @@
  
  #menuToggle a:hover
  {
-   /*color: tomato;*/
    color: #3587F2;
  }
  
@@ -78,9 +75,7 @@
    height: 4px;
    margin-bottom: 5px;
    position: relative;
-   
-   /*background: #cdcdcd;*/ /* kleur van hamburger*/
-   background: #232323;
+   background: #232323; /* kleur van hamburger*/
    border-radius: 3px;
    
    z-index: 1;
@@ -181,6 +176,12 @@
   justify-content: center;
  }
 
+.titel{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
  .logo{
   display: flex;
@@ -227,7 +228,6 @@
 }
 
 
-
 .box1{
   display: flex;
   justify-content: space-around ;
@@ -244,7 +244,7 @@
   display: flex;
   justify-content: space-around;
   flex-direction: row-reverse;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 article{
@@ -278,23 +278,14 @@ article h2{
 .tekst_omheen{
   float: right;
   shape-outside: url(images/illustratie_duurzaam.png);
+  /*Deze code geeft een error maar moet volgens Meneer de Vries en het
+  internet wel kloppen */
 }
 
 .onderste_tekst{
-  padding-top: 25px;
+  margin-top: 25px;
 }
 
-
-.footer1{
-  background-color: #232323; 
-  padding: 20px 0;
-  width: 100vw;
-  height: 60px;
-  margin-top: 64px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
 footer{
   background-color: #232323; 
@@ -307,20 +298,24 @@ footer{
   align-items: center;
 }
 
+.footer1{
+  margin-top: 52px;
+}
+
 
 footer h3{
   margin: 0px;
-  color: #575757;
+  color: #626262;
 }
 
 footer a{
-  color: #575757;
+  color: #626262;
   font-size: 13px;
   text-decoration: none;
 }
 
 footer a:visited{
-  color: #575757;
+  color: #626262;
   font-size: 13px;
   text-decoration: none;
 }
@@ -330,7 +325,7 @@ footer a:visited{
 }
 
 .footer_tekst{
-  color: #575757;
+  color: #626262;
   font-size: 10px;
   padding-left: 11px;
   margin-top: 0px;
